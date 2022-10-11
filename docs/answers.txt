@@ -1,0 +1,93 @@
+### Git Lab Tutorials was looked through on 10/11/2022 around 1am EST. ###
+
+### GitHub repo fork was made on 10/11/2022 around 1:30am EST. ###
+
+### GitHub account was made on 12/1/2015 probably at like 4 in the morning as well. ###
+
+
+### GitHub Link: https://github.com/XZot1K/assignment2
+
+
+
+1)
+	C:\Users\alexo\Documents\C++\assignment2>git add docs
+
+	C:\Users\alexo\Documents\C++\assignment2>git commit
+	[master 9abf32e] Added the docs folder alongside its nested file status.txt
+	 1 file changed, 12 insertions(+)
+	 create mode 100644 docs/status.txt
+
+	C:\Users\alexo\Documents\C++\assignment2>git status
+	On branch master
+	Your branch is ahead of 'origin/master' by 2 commits.
+	  (use "git push" to publish your local commits)
+
+	nothing to commit, working tree clean
+
+	C:\Users\alexo\Documents\C++\assignment2>git push
+	Enumerating objects: 9, done.
+	Counting objects: 100% (9/9), done.
+	Delta compression using up to 16 threads
+	Compressing objects: 100% (5/5), done.
+	Writing objects: 100% (7/7), 933 bytes | 933.00 KiB/s, done.
+	Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+	remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+	To https://github.com/XZot1K/assignment2
+	   f4975e5..9abf32e  master -> master
+
+
+
+2) 
+	9 commits have been done so far to the master branch. The git command used was "git rev-list --count master".
+
+
+3)
+	The README.md file was modified last on Oct. 11 01:45:48 2022 and before that was Sep 25 18:33:08 2019. The 
+	command used was "git log --follow README.md".
+
+
+4) 
+	Branches are used to enhance version control capabilities. The common case is to handle two versions of a
+	software simuntaniously without modifying the opposing branch's source code. Another reason is simply backups.
+	Though Git already handles version control by keeping a history of all committed changes, having branches that
+	are simply cloning the master branch before major changes allows quick reversion to a previous version of the
+	software without the loss of progress or risk.
+
+
+5)
+	"git status" simply allows inspection of the working directory and its staging area while "git log" provides
+	information and operates only off of the committed history.
+
+
+6)
+	The command to see what commits modified "Vehicle.h" is "git log --follow -- Vehicle.h".
+
+
+7)
+	The command to see what commits whose commit message contains the word "file" is "git log --all --grep='file'".
+
+
+8)
+
+	(I) Inheritance is when one class inherits the attributes and functions/methods of another class.
+	
+	(II) Polymorphism is when an object has the ability to take on many forms. For example, different data types.
+
+	(III) Encapsulation is when data and method/functions that operate on that data is merged or bundled into 
+		a singular unit.
+	
+
+9)
+	The main difference between the "Integration Manager Workflow" and "Dictator and Lieutenants Workflow" pertains
+	to organization. The "Integration Manager Workflow" has developers work on their own private reposistories cloned
+	from the blessed repository. Their work is the pushed to a public repo accessed by the integration manager whom
+	integrates conflict resolution and pushes that to the blessed repository. As for the "Dictator and Lieutenants
+	Workflow", developers contribute code which is merged and simplified by the lieutenants. The dictator (majority
+	of time the original developer or creator), then pushes to the blessed repository the returns back to the developers.
+
+
+10)
+	A team of 100 developers would benefit from the "Dictator and Lieutenant Workflow" since 100 repositories would have
+	their commits simplified down and merged into approaximetly half of their original quantity before being pushed to a
+	singular individual (dictator) whom then needs to push to the blessed repository. Other workflows would simply be
+	impractical in this particular case due to the quantity of changes.
