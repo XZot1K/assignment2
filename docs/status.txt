@@ -1,0 +1,12 @@
+C:\Users\alexo\Documents\C++\assignment2>git add README.md
+
+C:\Users\alexo\Documents\C++\assignment2>git commit
+[master 355aae3] Updated information files
+ 1 file changed, 3 insertions(+)
+
+C:\Users\alexo\Documents\C++\assignment2>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
